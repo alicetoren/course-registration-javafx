@@ -1,0 +1,29 @@
+/* Course Registration — shared visual language */
+.root { -fx-background-color: #f6f8fc; -fx-font-family: "Avenir Next", "Segoe UI", Arial, sans-serif; -fx-text-fill: #243247; }
+.label { -fx-text-fill: #46566d; }
+.button { -fx-background-color: #2156a5; -fx-background-radius: 7; -fx-border-radius: 7; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: 700; -fx-padding: 9 18; -fx-cursor: hand; }
+.button:hover { -fx-background-color: #173f7d; }
+.button:pressed { -fx-background-color: #102e5f; }
+.button:disabled { -fx-opacity: 0.55; }
+.dashboard-title { -fx-font-size: 28px; -fx-font-weight: 800; -fx-text-fill: #172b4d; }
+.dashboard-subtitle { -fx-font-size: 15px; -fx-text-fill: #64748b; }
+.dashboard-button { -fx-background-color: white; -fx-border-color: #d5deea; -fx-border-width: 1; -fx-text-fill: #1f3b62; -fx-alignment: center-left; }
+.dashboard-button:hover { -fx-background-color: #eef5ff; -fx-border-color: #8eb7eb; }
+.text-button { -fx-background-color: transparent; -fx-text-fill: #5c6d84; -fx-padding: 7 10; }
+.text-button:hover { -fx-background-color: #e8eef7; -fx-text-fill: #173f7d; }
+.text-field, .password-field { -fx-background-color: white; -fx-background-radius: 7; -fx-border-color: #cbd5e1; -fx-border-radius: 7; -fx-border-width: 1; -fx-padding: 10 12; -fx-font-size: 14px; }
+.text-field:focused, .password-field:focused { -fx-border-color: #3b82f6; -fx-border-width: 1.5; -fx-effect: dropshadow(gaussian, rgba(59, 130, 246, 0.18), 7, 0.2, 0, 0); }
+.scroll-pane { -fx-background-color: transparent; -fx-background: transparent; -fx-border-color: transparent; }
+.scroll-pane > .viewport { -fx-background-color: transparent; }
+.scroll-bar:vertical { -fx-background-color: transparent; -fx-pref-width: 10; }
+.scroll-bar:vertical .thumb { -fx-background-color: #cbd5e1; -fx-background-radius: 10; }
+.course-card { -fx-background-color: white; -fx-background-radius: 10; -fx-border-color: #dde5f0; -fx-border-radius: 10; -fx-border-width: 1; -fx-effect: dropshadow(gaussian, rgba(30, 41, 59, 0.08), 10, 0.12, 0, 2); }
+.course-card:hover { -fx-border-color: #9dbce7; }
+.course-card-title { -fx-font-size: 18px; -fx-font-weight: 800; -fx-text-fill: #172b4d; }
+.course-card-meta { -fx-font-size: 13px; -fx-font-weight: 700; -fx-text-fill: #58708f; }
+.course-status { -fx-font-size: 12px; -fx-font-weight: 800; }
+.course-status-open { -fx-text-fill: #157347; }
+.course-status-full { -fx-text-fill: #b42318; }
+.student-card { -fx-background-color: white; -fx-background-radius: 8; -fx-border-color: #dde5f0; -fx-border-radius: 8; }
+.student-card-name { -fx-font-size: 16px; -fx-font-weight: 800; -fx-text-fill: #243b5c; }
+.student-card-username { -fx-font-size: 13px; -fx-text-fill: #64748b; }

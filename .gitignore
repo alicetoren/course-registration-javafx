@@ -1,1 +1,13 @@
+# Maven build output
+target/
+
+# Eclipse workspace metadata
+.classpath
+.project
+.settings/
+
+# Local application data
+CourseRegistrationData.ser
+
+# Operating-system files
 .DS_Store
