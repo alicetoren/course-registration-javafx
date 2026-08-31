@@ -34,7 +34,17 @@ I originally built this project as a Java object-oriented programming exercise, 
 
 ## Screenshots
 
-_Add screenshots of the welcome screen, student dashboard, administrator dashboard, and course-management view here._
+| Welcome Screen | Student Dashboard |
+| --- | --- |
+| ![Welcome screen](images/welcome-screen.png) | ![Student dashboard](images/student-dashboard.png) |
+
+| Administrator Dashboard | Course Registration |
+| --- | --- |
+| ![Administrator dashboard](images/admin-dashboard.png) | ![Successful course registration](images/course-registration-success.png) |
+
+| Course Management |
+| --- |
+| ![Edit course](images/edit-course.png) |
 
 ## Getting Started
 
